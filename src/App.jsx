@@ -7,6 +7,7 @@ import GallerySection from './components/GallerySection'
 import AchievementsSection from './components/AchievementsSection'
 import StaffSection from './components/StaffSection'
 import AboutSection from './components/AboutSection'
+import ReviewsSection from './components/ReviewsSection'
 import ContactSection from './components/ContactSection'
 import Footer from './components/Footer'
 import WhatsAppFloat from './components/WhatsAppFloat'
@@ -24,6 +25,7 @@ function App() {
         <AchievementsSection />
         <StaffSection />
         <AboutSection />
+        <ReviewsSection />
         <ContactSection />
       </main>
       <Footer />
