@@ -62,7 +62,7 @@ export default function StaffSection() {
               <div className="relative h-56 overflow-hidden">
                 <img
                   src={member.image}
-                  alt={member.name}
+                  alt={`${member.name} - ${member.role}, ${member.subject} faculty at Success Classes Barshi`}
                   className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
                   loading="lazy"
                 />

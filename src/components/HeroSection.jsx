@@ -10,7 +10,7 @@ export default function HeroSection() {
       <img
         id="hero-bg"
         src="/background1.webp"
-        alt="Success Classes Building"
+        alt="Success Classes Barshi - Premier coaching institute for JEE, NEET, and CET preparation"
         fetchpriority="high"
         className="absolute inset-0 w-full h-full object-cover"
       />

@@ -1,45 +1,45 @@
 const galleryImages = [
   {
     src: '/Gallery/one.webp',
-    alt: 'Gallery 1',
+    alt: 'Success Classes Barshi - Classroom teaching and student learning environment',
     span: 'col-span-2',
   },
   {
     src: '/Gallery/two.webp',
-    alt: 'Gallery 2',
+    alt: 'JEE NEET students studying at Success Classes coaching center in Barshi',
   },
   {
     src: '/Gallery/three.webp',
-    alt: 'Gallery 3',
+    alt: 'Science laboratory class with faculty at Success Classes Barshi',
   },
   {
     src: '/Gallery/four.webp',
-    alt: 'Gallery 4',
+    alt: 'Mathematics coaching session for 11th 12th students at Success Classes',
   },
   {
     src: '/Gallery/five.webp',
-    alt: 'Gallery 5',
+    alt: 'Interactive teaching methods and student engagement at Success Classes',
   },
   {
     src: '/Gallery/six.webp',
-    alt: 'Gallery 6',
+    alt: 'State-of-the-art study facilities and resources at Success Classes Barshi Maharashtra',
     span: 'col-span-2',
   },
   {
     src: '/Gallery/seven.webp',
-    alt: 'Gallery 7',
+    alt: 'Class activities and practical demonstration for Science students',
   },
   {
     src: '/Gallery/eight.webp',
-    alt: 'Gallery 8',
+    alt: 'Success Classes student batch for CET and competitive exam preparation',
   },
   {
     src: '/Gallery/nine.webp',
-    alt: 'Gallery 9',
+    alt: 'Board exam coaching and academic excellence at Success Classes Tilak Chowk',
   },
   {
     src: '/Gallery/ten.webp',
-    alt: 'Gallery 10',
+    alt: 'Student achievements and success stories from Success Classes Barshi',
   },
 ]
 

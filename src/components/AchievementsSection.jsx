@@ -75,10 +75,10 @@ export default function AchievementsSection() {
           <div className="overflow-hidden shadow-lg border border-gray-100 bg-white hover:shadow-xl transition-shadow duration-300">
             <img
               src="/Achievements/two.webp"
-              alt="Achievement Highlight"
+              alt="Success Classes Barshi student achievements and awards in JEE NEET CET competitive exams"
               className="w-full h-auto object-cover cursor-zoom-in"
               loading="lazy"
-              onClick={() => setZoomedImg({ src: '/Achievements/two.webp', alt: 'Achievement Highlight' })}
+              onClick={() => setZoomedImg({ src: '/Achievements/two.webp', alt: 'Success Classes Barshi student achievements and awards in JEE NEET CET competitive exams' })}
             />
           </div>
         </div>
@@ -106,7 +106,7 @@ export default function AchievementsSection() {
                     <img
                       src={img.src}
                       alt={img.alt}
-                      className="w-full h-[280px] md:h-[320px] object-cover hover:scale-105 transition-transform duration-300"
+                      className="w-full h-[320px] md:h-[580px] object-cover hover:scale-105 transition-transform duration-300"
                       loading="lazy"
                     />
                   </div>

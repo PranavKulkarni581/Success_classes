@@ -19,7 +19,7 @@ export default function AboutSection() {
             <div className="rounded-2xl overflow-hidden shadow-2xl">
               <img
                 src="./about.webp"
-                alt="About Success Classes"
+                alt="About Success Classes Barshi - 18+ years of academic excellence in JEE NEET CET coaching"
                 className="w-full h-[420px] object-cover"
                 style={{ objectPosition: '20% center' }}
                 loading="lazy"
