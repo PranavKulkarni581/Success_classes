@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: 'Open Sans', sans-serif;
+    color: #1f2937;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+  }
+}
+
+@layer utilities {
+  .hover-zoom {
+    transition: transform 0.4s ease;
+  }
+  .hover-zoom:hover {
+    transform: scale(1.05);
+  }
+
+  .section-heading::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: #2b6cb0;
+    margin: 12px auto 0;
+    border-radius: 2px;
+  }
+
+  .section-heading-left::after {
+    content: '';
+    display: block;
+    width: 60px;
+    height: 4px;
+    background: #2b6cb0;
+    margin: 12px 0 0;
+    border-radius: 2px;
+  }
+}
