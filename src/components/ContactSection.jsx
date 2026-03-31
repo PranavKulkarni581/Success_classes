@@ -16,7 +16,7 @@ export default function ContactSection() {
   }
 
   return (
-    <section id="contact" className="py-20 bg-bgGrey">
+    <section id="contact" className="py-20 bg-white">
       <div className="max-w-[1200px] mx-auto px-5">
         <div className="text-center mb-14">
           <p className="text-btnBlue font-semibold text-sm uppercase tracking-widest mb-2">

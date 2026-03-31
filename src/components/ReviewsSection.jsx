@@ -1,4 +1,4 @@
-import { FaStar } from 'react-icons/fa'
+import { FaStar, FaStarHalf } from 'react-icons/fa'
 
 const reviews = [
   {
@@ -53,7 +53,7 @@ const reviews = [
 
 export default function ReviewsSection() {
   return (
-    <section id="reviews" className="py-20 bg-white">
+    <section id="reviews" className="py-20 bg-bgGrey">
       <div className="max-w-[1200px] mx-auto px-5">
         {/* Section Heading */}
         <div className="text-center mb-14">
@@ -74,9 +74,15 @@ export default function ReviewsSection() {
             >
               {/* Rating Stars */}
               <div className="flex gap-1 mb-4">
-                {[...Array(rating)].map((_, i) => (
-                  <FaStar key={i} className="text-yellow-400" size={16} />
-                ))}
+                {Array.from({ length: 5 }).map((_, i) => {
+                  const isFilled = i < Math.floor(rating)
+                  const isHalf = i === Math.floor(rating) && rating % 1 !== 0
+                  return isHalf ? (
+                    <FaStarHalf key={i} className="text-yellow-400" size={16} />
+                  ) : (
+                    <FaStar key={i} className={isFilled ? 'text-yellow-400' : 'text-gray-300'} size={16} />
+                  )
+                })}
               </div>
 
               {/* Review Text */}

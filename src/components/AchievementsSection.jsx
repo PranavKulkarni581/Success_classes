@@ -58,7 +58,7 @@ export default function AchievementsSection() {
   }, [zoomedImg])
 
   return (
-    <section id="achievements" className="py-20 bg-bgGrey overflow-hidden">
+    <section id="achievements" className="py-20 bg-white overflow-hidden">
       <div className="max-w-[1200px] mx-auto px-5">
         {/* Section Heading */}
         <div className="text-center mb-14">
