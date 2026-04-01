@@ -1,15 +1,15 @@
 const galleryImages = [
   {
-    src: '/Gallery/one.webp',
+    src: '/Gallery/one.png',
     alt: 'Success Classes Barshi - Classroom teaching and student learning environment',
     span: 'col-span-2',
   },
   {
-    src: '/Gallery/two.webp',
+    src: '/Gallery/two.png',
     alt: 'JEE NEET students studying at Success Classes coaching center in Barshi',
   },
   {
-    src: '/Gallery/three.webp',
+    src: '/Gallery/three.png',
     alt: 'Science laboratory class with faculty at Success Classes Barshi',
   },
   {
@@ -34,11 +34,11 @@ const galleryImages = [
     alt: 'Success Classes student batch for CET and competitive exam preparation',
   },
   {
-    src: '/Gallery/nine.webp',
+    src: '/Gallery/nine.png',
     alt: 'Board exam coaching and academic excellence at Success Classes Tilak Chowk',
   },
   {
-    src: '/Gallery/ten.webp',
+    src: '/Gallery/ten.png',
     alt: 'Student achievements and success stories from Success Classes Barshi',
   },
 ]

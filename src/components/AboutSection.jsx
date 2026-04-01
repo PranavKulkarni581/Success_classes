@@ -11,7 +11,7 @@ const bullets = [
 
 export default function AboutSection() {
   return (
-    <section id="about" className="py-20 bg-white">
+    <section id="about" className="py-20 bg-bgGrey">
       <div className="max-w-[1200px] mx-auto px-5">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-center">
           {/* Image Side */}
@@ -50,10 +50,14 @@ export default function AboutSection() {
               entrances like JEE, NEET, and MHT-CET.
             </p>
             <p className="text-lightText text-sm leading-relaxed mb-6">
-              Our team of highly qualified educators believes in building strong conceptual
-              foundations so that students not only pass exams but truly understand and love the
-              subjects they study. With small batch sizes, personalized attention, and a nurturing
-              environment, we ensure no student is left behind.
+              Director of SUCCESS CLASSES BARSHI
+Mr. Sachin Maharudra Shiral
+MSc BEd 
+District Topper in his subject in graduation
+Scholorship holder of SHIVAJI UNIVERSITY KOLHAPUR
+Awarded For 
+Excelence In Academic Education By Dainik Sakal
+Power 50 In Solapur By Dainik Divya Marathi.
             </p>
 
             {/* Bullet Points */}

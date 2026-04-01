@@ -1,4 +1,4 @@
-import { FaGraduationCap, FaPhone, FaEnvelope, FaMapMarkerAlt, FaHeart } from 'react-icons/fa'
+import { FaGraduationCap, FaPhone, FaEnvelope, FaMapMarkerAlt, FaHeart, FaLinkedin } from 'react-icons/fa'
 
 const quickLinks = [
   { label: 'Home', href: '#home' },
@@ -148,8 +148,25 @@ export default function Footer() {
           <p className="text-center text-sm md:text-base text-gray-400">
             © {new Date().getFullYear()} Success Classes, Barshi. All rights reserved.
           </p>
-          <p className="flex items-center justify-center gap-1.5 text-center text-sm md:text-base text-gray-400">
-            Made with <FaHeart className="text-red-500" /> By Pranav & Swaraj.
+          <p className="flex items-center justify-center gap-1 flex-wrap text-center text-sm md:text-base text-gray-400">
+            Made with <FaHeart className="text-red-500" /> By  
+            <a 
+              href="https://www.linkedin.com/in/pranav-kulkarni1/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-blue-300 hover:text-blue-400 transition-colors font-semibold flex items-center gap-1 group"
+            >
+            Pranav <FaLinkedin className="transition-colors" />
+            </a>
+            &
+            <a 
+              href="https://www.linkedin.com/in/swaraj-katkar-48a2b5282/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-blue-300 hover:text-blue-400 transition-colors font-semibold flex items-center gap-1 group"
+            >
+              Swaraj <FaLinkedin className="transition-colors" />
+            </a>
           </p>
         </div>
       </div>

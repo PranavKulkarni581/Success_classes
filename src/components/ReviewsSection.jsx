@@ -53,7 +53,7 @@ const reviews = [
 
 export default function ReviewsSection() {
   return (
-    <section id="reviews" className="py-20 bg-bgGrey">
+    <section id="reviews" className="py-20 bg-white">
       <div className="max-w-[1200px] mx-auto px-5">
         {/* Section Heading */}
         <div className="text-center mb-14">
@@ -70,7 +70,7 @@ export default function ReviewsSection() {
           {reviews.map(({ name, location, text, rating }) => (
             <div
               key={name}
-              className="bg-bgGrey p-6 rounded-2xl shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-0.5 border border-gray-100 flex flex-col"
+              className="bg-white p-6 rounded-2xl shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-0.5 border border-gray-100 flex flex-col"
             >
               {/* Rating Stars */}
               <div className="flex gap-1 mb-4">

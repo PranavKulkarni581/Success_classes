@@ -11,6 +11,7 @@ import ReviewsSection from './components/ReviewsSection'
 import ContactSection from './components/ContactSection'
 import Footer from './components/Footer'
 import WhatsAppFloat from './components/WhatsAppFloat'
+import MediaHighlightsSection from './components/MediaHighlightsSection'
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
         <BatchesSection />
         <GallerySection />
         <AchievementsSection />
+        <MediaHighlightsSection />
         <StaffSection />
         <AboutSection />
         <ReviewsSection />

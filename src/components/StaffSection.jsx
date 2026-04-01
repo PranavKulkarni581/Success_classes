@@ -6,38 +6,38 @@ const staff = [
     role: 'Director & Faculty',
     qualification: 'MSc, BEd (Mathematics)',
     experience: '18 Years',
-    image: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=400&q=80',
-    color: 'from-blue-500 to-blue-700',
+   image: './Staff/shiral.png',
+    // color: 'from-blue-500 to-blue-700',
   },
   {
     name: 'Mrs. Pallavi Sachin Shiral',
     role: 'Senior Faculty',
-    qualification: 'MSc, BEd',
+    qualification: 'MSc, BEd, TET Qualified, CTET Qualified',
     experience: '18 Years',
-    image: 'https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=400&q=80',
-    color: 'from-pink-500 to-rose-600',
+    image: './Staff/pallavi.png',
+    // color: 'from-pink-500 to-rose-600',
   },
   {
     name: 'Mr. Avinash Santosh Shilwant',
     role: 'Senior Faculty',
-    qualification: 'MA, BEd',
+    qualification: 'MA, BEd, CTET Qualified',
     experience: '18 Years',
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80',
-    color: 'from-emerald-500 to-green-700',
+   image: './Staff/chilwant.png',
+    // color: 'from-emerald-500 to-green-700',
   },
   {
     name: 'Akash Santosh Shiral',
     role: 'Faculty',
-    qualification: 'MSc, BEd',
+    qualification: 'MSc, BEd, TET Qualified',
     experience: '5 Years',
-    image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&q=80',
-    color: 'from-purple-500 to-violet-700',
+    image: './Staff/akash.png',
+    // color: 'from-purple-500 to-violet-700',
   },
 ]
 
 export default function StaffSection() {
   return (
-    <section id="staff" className="py-20 bg-bgGrey">
+    <section id="staff" className="py-20 bg-white">
       <div className="max-w-[1200px] mx-auto px-5">
         <div className="text-center mb-14">
           <p className="text-btnBlue font-semibold text-sm uppercase tracking-widest mb-2">
@@ -55,7 +55,7 @@ export default function StaffSection() {
               className="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 group"
             >
               {/* Image */}
-              <div className="relative h-56 overflow-hidden">
+              <div className="relative h-63 overflow-hidden">
                 <img
                   src={member.image}
                   alt={`${member.name} - ${member.role}, ${member.subject} faculty at Success Classes Barshi`}
@@ -90,6 +90,12 @@ export default function StaffSection() {
               </div>
             </div>
           ))}
+        </div>
+
+        <div className="text-center mt-12">
+          <p className="font-heading text-lg md:text-xl font-semibold text-darkText">
+            & Many More Qualified Staff
+          </p>
         </div>
       </div>
     </section>
