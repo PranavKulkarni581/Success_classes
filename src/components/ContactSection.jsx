@@ -4,15 +4,28 @@ import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaClock, FaPaperPlane } from 'reac
 export default function ContactSection() {
   const [form, setForm] = useState({ name: '', phone: '', message: '' })
   const [submitted, setSubmitted] = useState(false)
+  const [loading, setLoading] = useState(false)
 
   const handleChange = (e) =>
     setForm((prev) => ({ ...prev, [e.target.name]: e.target.value }))
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    setSubmitted(true)
-    setForm({ name: '', phone: '', message: '' })
-    setTimeout(() => setSubmitted(false), 4000)
+    
+    // Show loading state
+    setLoading(true)
+    
+    // Simulate form submission
+    setTimeout(() => {
+      setLoading(false)
+      setSubmitted(true)
+      setForm({ name: '', phone: '', message: '' })
+      
+      // Reset success message after 4 seconds
+      setTimeout(() => {
+        setSubmitted(false)
+      }, 4000)
+    }, 2000)
   }
 
   return (
@@ -156,10 +169,15 @@ export default function ContactSection() {
               </div>
               <button
                 type="submit"
-                className="w-full bg-btnBlue text-white font-semibold py-3.5 rounded-xl hover:bg-blue-700 transition-colors duration-200 flex items-center justify-center gap-2 shadow-md"
+                disabled={loading}
+                className={`w-full font-semibold py-3.5 rounded-xl flex items-center justify-center gap-2 shadow-md transition-all duration-200 ${
+                  loading
+                    ? 'bg-gray-400 text-white cursor-not-allowed'
+                    : 'bg-btnBlue text-white hover:bg-blue-700'
+                } ${submitted ? 'bg-green-500 hover:bg-green-600' : ''}`}
               >
                 <FaPaperPlane className="text-sm" />
-                Submit Enquiry
+                {loading ? 'Sending...' : submitted ? 'Message Sent!' : 'Submit Enquiry'}
               </button>
             </form>
           </div>

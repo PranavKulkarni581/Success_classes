@@ -1,4 +1,4 @@
-import { FaGraduationCap, FaPhone, FaEnvelope, FaMapMarkerAlt, FaHeart, FaLinkedin } from 'react-icons/fa'
+import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaHeart, FaLinkedin } from 'react-icons/fa'
 
 const quickLinks = [
   { label: 'Home', href: '#home' },
@@ -28,9 +28,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <div className="flex items-center gap-2 mb-4">
-              <div className="w-10 h-10 bg-primary rounded-lg flex items-center justify-center">
-                <FaGraduationCap className="text-white text-xl" />
-              </div>
+              <img src="/logo.webp" alt="Success Classes Logo" className="w-10 h-10 object-contain" />
               <div>
                 <p className="font-heading font-bold text-white text-lg leading-none">
                   Success Classes
@@ -133,7 +131,7 @@ export default function Footer() {
                 <div>
                   <p className="text-gray-500 text-xs mb-0.5">Address</p>
                   <p className="text-gray-300 text-sm leading-snug">
-                    Tilak Chowk Adva Rasta,<br />Barshi, Maharashtra
+                    Burud Galli,<br />Barshi, Maharashtra
                   </p>
                 </div>
               </li>

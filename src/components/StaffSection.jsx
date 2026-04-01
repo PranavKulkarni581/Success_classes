@@ -55,7 +55,7 @@ export default function StaffSection() {
               className="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 hover:-translate-y-1 group"
             >
               {/* Image */}
-              <div className="relative h-63 overflow-hidden">
+              <div className="relative h-62 overflow-hidden">
                 <img
                   src={member.image}
                   alt={`${member.name} - ${member.role}, ${member.subject} faculty at Success Classes Barshi`}
