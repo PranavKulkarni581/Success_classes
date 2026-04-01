@@ -105,6 +105,8 @@ export default function Footer() {
                     <p className="text-gray-500 text-xs mb-0.5">Phone</p>
                     <p className="text-gray-300 text-sm group-hover:text-blue-300 transition-colors">9881384200</p>
                     <p className="text-gray-300 text-sm group-hover:text-blue-300 transition-colors">9689264827</p>
+
+                    <p className="text-gray-300 text-sm group-hover:text-blue-300 transition-colors">7020709528</p>
                   </div>
                 </a>
               </li>
@@ -119,7 +121,7 @@ export default function Footer() {
                   <div>
                     <p className="text-gray-500 text-xs mb-0.5">Email</p>
                     <p className="text-gray-300 text-sm group-hover:text-blue-300 transition-colors break-all">
-                      successclasses@gmail.com
+                      akash7020709528@gmail.com
                     </p>
                   </div>
                 </a>

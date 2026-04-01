@@ -38,19 +38,19 @@ export default function ContactSection() {
                   {
                     icon: FaPhone,
                     label: 'Phone',
-                    lines: ['9881384200', '9689264827'],
+                    lines: ['9881384200', '9689264827', '7020709528'],
                     href: 'tel:9881384200',
                   },
                   {
                     icon: FaEnvelope,
                     label: 'Email',
-                    lines: ['successclasses@gmail.com'],
-                    href: 'mailto:successclasses@gmail.com',
+                    lines: ['akash7020709528@gmail.com'],
+                    href: 'mailto:akash7020709528@gmail.com',
                   },
                   {
                     icon: FaMapMarkerAlt,
                     label: 'Address',
-                    lines: ['Tilak Chowk Adva Rasta,', 'Barshi, Maharashtra'],
+                    lines: ['Burud galli,', 'Barshi, Maharashtra'],
                   },
                   {
                     icon: FaClock,

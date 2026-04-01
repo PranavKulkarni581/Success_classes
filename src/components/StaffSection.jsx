@@ -4,7 +4,6 @@ const staff = [
   {
     name: 'Sachin Maharudra Shiral',
     role: 'Director & Faculty',
-    subject: 'Mathematics',
     qualification: 'MSc, BEd (Mathematics)',
     experience: '18 Years',
     image: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?w=400&q=80',
@@ -13,7 +12,6 @@ const staff = [
   {
     name: 'Mrs. Pallavi Sachin Shiral',
     role: 'Senior Faculty',
-    subject: 'Biology',
     qualification: 'MSc, BEd',
     experience: '18 Years',
     image: 'https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=400&q=80',
@@ -22,7 +20,6 @@ const staff = [
   {
     name: 'Mr. Avinash Santosh Shilwant',
     role: 'Senior Faculty',
-    subject: 'English',
     qualification: 'MA, BEd',
     experience: '18 Years',
     image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80',
@@ -31,7 +28,6 @@ const staff = [
   {
     name: 'Akash Santosh Shiral',
     role: 'Faculty',
-    subject: 'Chemistry',
     qualification: 'MSc, BEd',
     experience: '5 Years',
     image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=400&q=80',
@@ -67,11 +63,11 @@ export default function StaffSection() {
                   loading="lazy"
                 />
                 <div className={`absolute inset-0 bg-gradient-to-t ${member.color} opacity-40`} />
-                <div className="absolute bottom-0 left-0 right-0 p-3">
+                {/* <div className="absolute bottom-0 left-0 right-0 p-3">
                   <span className="inline-block bg-white/90 backdrop-blur-sm text-primary text-xs font-bold px-3 py-1 rounded-full">
                     {member.subject}
                   </span>
-                </div>
+                </div> */}
               </div>
 
               {/* Content */}

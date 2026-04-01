@@ -50,7 +50,7 @@ export default function HeroSection() {
           {/* Address */}
           <p className="flex items-center gap-2 text-white/80 text-sm mb-8">
             <FaMapMarkerAlt className="text-blue-300 flex-shrink-0" />
-            Tilak Chowk Adva Rasta, Barshi, Maharashtra
+               Burud galli , Barshi, Maharashtra
           </p>
 
           {/* Stats row */}

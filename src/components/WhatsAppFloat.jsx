@@ -18,7 +18,7 @@ export default function WhatsAppFloat() {
     <div className="fixed bottom-6 right-6 z-50 flex flex-col items-center gap-3">
       {/* WhatsApp */}
       <a
-        href="https://wa.me/919881384200"
+        href="https://wa.me/917020709528"
         target="_blank"
         rel="noopener noreferrer"
         className="group relative"
