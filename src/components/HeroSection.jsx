@@ -57,8 +57,8 @@ export default function HeroSection() {
           <div className="flex flex-wrap gap-6 mb-10">
             {[
               { value: '18+', label: 'Years Experience' },
-              { value: '1000+', label: 'Students Taught' },
-              { value: '95%', label: 'Pass Rate' },
+              { value: '5000+', label: 'Students Taught' },
+              { value: '95%', label: 'Success Rate' },
             ].map((stat) => (
               <div key={stat.label} className="text-white">
                 <p className="text-3xl font-bold font-heading text-blue-300">

@@ -41,6 +41,22 @@ const galleryImages = [
     src: '/Gallery/ten.png',
     alt: 'Student achievements and success stories from Success Classes Barshi',
   },
+  {
+    src: 'https://res.cloudinary.com/dvsxeq7ng/image/upload/v1775146191/7557fb2a-20d6-402c-bfcb-b2b49ad7e229.png',
+    alt: 'Success Classes gallery - Student learning and educational achievements',
+  },
+  {
+    src: 'https://res.cloudinary.com/dvsxeq7ng/image/upload/v1775146250/2e2af895-54f1-4c5b-9372-0a0e60d1eb07.png',
+    alt: 'Success Classes gallery - Classroom and study environment',
+  },
+  {
+    src: 'https://res.cloudinary.com/dvsxeq7ng/image/upload/v1775146299/818f887f-99f9-4fcb-b7eb-eb6f68e6187c.png',
+    alt: 'Success Classes gallery - Teaching excellence and student engagement',
+  },
+  {
+    src: 'https://res.cloudinary.com/dvsxeq7ng/image/upload/v1775146497/61e2d9eb-c132-42d0-bdd6-07a692bd5776.png',
+    alt: 'Success Classes gallery - Academic programs and learning activities',
+  },
 ]
 
 export default function GallerySection() {
