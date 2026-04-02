@@ -1,32 +1,6 @@
-import { useState } from 'react'
 import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaClock, FaPaperPlane } from 'react-icons/fa'
 
 export default function ContactSection() {
-  const [form, setForm] = useState({ name: '', phone: '', message: '' })
-  const [submitted, setSubmitted] = useState(false)
-  const [loading, setLoading] = useState(false)
-
-  const handleChange = (e) =>
-    setForm((prev) => ({ ...prev, [e.target.name]: e.target.value }))
-
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    
-    // Show loading state
-    setLoading(true)
-    
-    // Simulate form submission
-    setTimeout(() => {
-      setLoading(false)
-      setSubmitted(true)
-      setForm({ name: '', phone: '', message: '' })
-      
-      // Reset success message after 4 seconds
-      setTimeout(() => {
-        setSubmitted(false)
-      }, 4000)
-    }, 2000)
-  }
 
   return (
     <section id="contact" className="py-20 bg-bgGrey">
@@ -111,21 +85,11 @@ export default function ContactSection() {
 
           {/* Enquiry Form */}
           <div className="lg:col-span-3 bg-white rounded-2xl shadow-md p-8">
-            <h3 className="font-heading font-bold text-xl text-darkText mb-1">
+            <h3 className="font-heading font-bold text-xl text-darkText mb-5">
               Send an Enquiry
             </h3>
-            <p className="text-lightText text-sm mb-6">
-              Fill out the form and we'll get back to you within 24 hours.
-            </p>
 
-            {submitted && (
-              <div className="mb-5 bg-green-50 border border-green-200 text-green-700 text-sm rounded-xl p-4 flex items-center gap-2">
-                <FaPaperPlane />
-                Thank you! Your enquiry has been submitted. We'll contact you soon.
-              </div>
-            )}
-
-            <form onSubmit={handleSubmit} className="space-y-5">
+            <form action="https://formspree.io/f/mvzvbzgn" method="POST" className="space-y-5">  
               <div>
                 <label className="block text-sm font-medium text-darkText mb-1.5">
                   Full Name <span className="text-red-500">*</span>
@@ -133,8 +97,6 @@ export default function ContactSection() {
                 <input
                   type="text"
                   name="name"
-                  value={form.name}
-                  onChange={handleChange}
                   required
                   placeholder="Enter your full name"
                   className="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary transition-all"
@@ -147,8 +109,6 @@ export default function ContactSection() {
                 <input
                   type="tel"
                   name="phone"
-                  value={form.phone}
-                  onChange={handleChange}
                   required
                   placeholder="Enter your phone number"
                   className="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary transition-all"
@@ -160,8 +120,6 @@ export default function ContactSection() {
                 </label>
                 <textarea
                   name="message"
-                  value={form.message}
-                  onChange={handleChange}
                   rows={4}
                   placeholder="Write your query or message here..."
                   className="w-full border border-gray-200 rounded-xl px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-primary/30 focus:border-primary transition-all resize-none"
@@ -169,15 +127,10 @@ export default function ContactSection() {
               </div>
               <button
                 type="submit"
-                disabled={loading}
-                className={`w-full font-semibold py-3.5 rounded-xl flex items-center justify-center gap-2 shadow-md transition-all duration-200 ${
-                  loading
-                    ? 'bg-gray-400 text-white cursor-not-allowed'
-                    : 'bg-btnBlue text-white hover:bg-blue-700'
-                } ${submitted ? 'bg-green-500 hover:bg-green-600' : ''}`}
+                className="w-full bg-btnBlue text-white font-semibold py-3.5 rounded-xl flex items-center justify-center gap-2 shadow-md hover:bg-blue-700 transition-all duration-200"
               >
                 <FaPaperPlane className="text-sm" />
-                {loading ? 'Sending...' : submitted ? 'Message Sent!' : 'Submit Enquiry'}
+                Submit Enquiry
               </button>
             </form>
           </div>

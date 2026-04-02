@@ -2,10 +2,10 @@ import { useState, useEffect, useCallback } from 'react'
 import { FaChevronLeft, FaChevronRight, FaTimes } from 'react-icons/fa'
 
 const slidingImages = [
-  { src: '/Achievements/one.webp', alt: 'Achievement 1' },
-  { src: '/Achievements/three.webp', alt: 'Achievement 3' },
-  { src: '/Achievements/four.webp', alt: 'Achievement 4' },
-  { src: '/Achievements/five.webp', alt: 'Achievement 5' },
+  { src: 'https://res.cloudinary.com/dvsxeq7ng/image/upload/v1775119068/one_reujt9.webp', alt: 'Achievement 1' },
+  { src: 'https://res.cloudinary.com/dvsxeq7ng/image/upload/v1775119069/three_awf7nm.webp', alt: 'Achievement 3' },
+  { src: 'https://res.cloudinary.com/dvsxeq7ng/image/upload/v1775119068/four_fzyvvp.webp', alt: 'Achievement 4' },
+  { src: 'https://res.cloudinary.com/dvsxeq7ng/image/upload/v1775119067/five_cayxsf.webp', alt: 'Achievement 5' },
 ]
 
 export default function AchievementsSection() {
@@ -74,11 +74,24 @@ export default function AchievementsSection() {
         <div className="max-w-5xl mx-auto mb-10">
           <div className="overflow-hidden shadow-lg border border-gray-100 bg-white hover:shadow-xl transition-shadow duration-300">
             <img
-              src="/Achievements/two.webp"
+              src="https://res.cloudinary.com/dvsxeq7ng/image/upload/v1775119068/two_mo1zyx.webp"
               alt="Success Classes Barshi student achievements and awards in JEE NEET CET competitive exams"
               className="w-full h-auto object-cover cursor-zoom-in"
               loading="lazy"
-              onClick={() => setZoomedImg({ src: '/Achievements/two.webp', alt: 'Success Classes Barshi student achievements and awards in JEE NEET CET competitive exams' })}
+              onClick={() => setZoomedImg({ src: 'https://res.cloudinary.com/dvsxeq7ng/image/upload/v1775119068/two_mo1zyx.webp', alt: 'Success Classes Barshi student achievements and awards in JEE NEET CET competitive exams' })}
+            />
+          </div>
+        </div>
+
+        {/* Long Banner - Student Success Stories */}
+        <div className="max-w-5xl mx-auto mb-10">
+          <div className="shadow-lg hover:shadow-xl transition-shadow duration-300">
+            <img
+              src="/long-banner.png"
+              alt="Success Classes Barshi - Student achievements and success stories in competitive exams"
+              className="w-full h-auto object-contain"
+              loading="lazy"
+              style={{ maxHeight: '280px' }}
             />
           </div>
         </div>

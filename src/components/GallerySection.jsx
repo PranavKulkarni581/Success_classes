@@ -1,40 +1,40 @@
 const galleryImages = [
   {
-    src: '/Gallery/one.png',
+    src: 'https://res.cloudinary.com/dvsxeq7ng/image/upload/v1775119314/one_f2l5lv.png',
     alt: 'Success Classes Barshi - Classroom teaching and student learning environment',
     span: 'col-span-2',
   },
   {
-    src: '/Gallery/two.png',
+    src: 'https://res.cloudinary.com/dvsxeq7ng/image/upload/v1775119273/two_w78bj2.png',
     alt: 'JEE NEET students studying at Success Classes coaching center in Barshi',
   },
   {
-    src: '/Gallery/three.png',
+    src: 'https://res.cloudinary.com/dvsxeq7ng/image/upload/v1775119259/three_pn6fco.png',
     alt: 'Science laboratory class with faculty at Success Classes Barshi',
   },
   {
-    src: '/Gallery/four.webp',
+    src: 'https://res.cloudinary.com/dvsxeq7ng/image/upload/v1775119105/four_xi3evn.webp',
     alt: 'Mathematics coaching session for 11th 12th students at Success Classes',
   },
   {
-    src: '/Gallery/five.webp',
+    src: 'https://res.cloudinary.com/dvsxeq7ng/image/upload/v1775119103/five_xbtotn.webp',
     alt: 'Interactive teaching methods and student engagement at Success Classes',
   },
   {
-    src: '/Gallery/six.webp',
+    src: 'https://res.cloudinary.com/dvsxeq7ng/image/upload/v1775119164/six_knujhk.webp',
     alt: 'State-of-the-art study facilities and resources at Success Classes Barshi Maharashtra',
     span: 'col-span-2',
   },
   {
-    src: '/Gallery/seven.webp',
+    src: 'https://res.cloudinary.com/dvsxeq7ng/image/upload/v1775119163/seven_ihoi9c.webp',
     alt: 'Class activities and practical demonstration for Science students',
   },
   {
-    src: '/Gallery/eight.webp',
+    src: 'https://res.cloudinary.com/dvsxeq7ng/image/upload/v1775119102/eight_ddma2b.webp',
     alt: 'Success Classes student batch for CET and competitive exam preparation',
   },
   {
-    src: '/Gallery/nine.png',
+    src: 'https://res.cloudinary.com/dvsxeq7ng/image/upload/v1775119236/nine_agkny0.png',
     alt: 'Board exam coaching and academic excellence at Success Classes Tilak Chowk',
   },
   {

@@ -2,19 +2,19 @@ import { useState } from 'react'
 
 const mediaHighlights = [
   {
-    src: '/MediaHighlights/news-01.png',
+    src: 'https://res.cloudinary.com/dvsxeq7ng/image/upload/v1775118975/news-01_apvb9c.png',
     alt: 'Success Classes featured in news - Educational excellence in Barshi',
   },
   {
-    src: '/MediaHighlights/news-02.png',
+    src: 'https://res.cloudinary.com/dvsxeq7ng/image/upload/v1775118966/news-02_mkbi8k.png',
     alt: 'Press coverage of Success Classes achievements and student performance',
   },
   {
-    src: '/MediaHighlights/news-03.png',
+    src: 'https://res.cloudinary.com/dvsxeq7ng/image/upload/v1775118964/news-03_oftkzz.png',
     alt: 'Newspaper article about Success Classes coaching and JEE NEET results',
   },
   {
-    src: '/MediaHighlights/news-04.png',
+    src: 'https://res.cloudinary.com/dvsxeq7ng/image/upload/v1775118966/news-04_y89bzi.png',
     alt: 'Media feature on Success Classes student success stories and achievements',
   },
 ]

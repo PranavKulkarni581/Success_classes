@@ -9,7 +9,7 @@ export default function HeroSection() {
       {/* Background image — <img> instead of CSS background for mobile control */}
       <img
         id="hero-bg"
-        src="/image.png"
+        src="https://res.cloudinary.com/dvsxeq7ng/image/upload/v1775118922/image_chi3r2.png"
         alt="Success Classes Barshi - Premier coaching institute for JEE, NEET, and CET preparation"
         fetchpriority="high"
         className="absolute inset-0 w-full h-full object-cover"

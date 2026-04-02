@@ -6,7 +6,7 @@ const staff = [
     role: 'Director & Faculty',
     qualification: 'MSc, BEd (Mathematics)',
     experience: '18 Years',
-   image: './Staff/shiral.png',
+   image: 'https://res.cloudinary.com/dvsxeq7ng/image/upload/v1775119041/shiral_mqou6r.png',
     // color: 'from-blue-500 to-blue-700',
   },
   {
@@ -14,7 +14,7 @@ const staff = [
     role: 'Senior Faculty',
     qualification: 'MSc, BEd, TET Qualified, CTET Qualified',
     experience: '18 Years',
-    image: './Staff/pallavi.png',
+    image: 'https://res.cloudinary.com/dvsxeq7ng/image/upload/v1775119037/pallavi_zi3mtz.png',
     // color: 'from-pink-500 to-rose-600',
   },
   {
@@ -22,7 +22,7 @@ const staff = [
     role: 'Senior Faculty',
     qualification: 'MA, BEd, CTET Qualified',
     experience: '18 Years',
-   image: './Staff/chilwant.png',
+   image: 'https://res.cloudinary.com/dvsxeq7ng/image/upload/v1775119033/chilwant_umhdpr.png',
     // color: 'from-emerald-500 to-green-700',
   },
   {
@@ -30,7 +30,7 @@ const staff = [
     role: 'Faculty',
     qualification: 'MSc, BEd, TET Qualified',
     experience: '5 Years',
-    image: './Staff/akash.png',
+    image: 'https://res.cloudinary.com/dvsxeq7ng/image/upload/v1775119019/akash_laaguj.png',
     // color: 'from-purple-500 to-violet-700',
   },
 ]
