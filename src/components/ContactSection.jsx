@@ -76,7 +76,7 @@ export default function ContactSection() {
             <div className="rounded-2xl overflow-hidden shadow-md h-44 bg-gray-200 relative">
               <iframe
                 title="Success Classes Location"
-                src="https://maps.google.com/maps?q=Tilak+Chowk,+Barshi,+Maharashtra&output=embed"
+                src="https://maps.google.com/maps?q=Burud+galli,+Barshi,+Maharashtra&output=embed"
                 className="w-full h-full border-0"
                 loading="lazy"
               />
